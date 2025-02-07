@@ -1,16 +1,20 @@
-## Hi there 👋
+Hi there 👋, I'm Jorge Rodríguez
 
-<!--
-**jorge2026/jorge2026** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm passionate about cloud architecture, process optimization, and disruptive strategy. My mission is to transform organizations through technology and innovation, leveraging cloud computing, AI, and best practices in enterprise systems.
 
-Here are some ideas to get you started:
+🔭 Currently working on:
+Cloud solutions and managed services at Manantial Tecnológico
+Developing cloud training programs for IT professionals
+Researching microservices architecture and enterprise strategy
+🌱 Currently learning:
+Advanced cloud architecture and multi-cloud strategies
+AI applications in supply chain and inventory management
+Best practices in enterprise digital transformation
+🤝 Looking to collaborate on:
+Cloud-native applications and infrastructure optimization
+Tech-driven educational initiatives
+Disruptive solutions for employability and business transformation
+📫 How to reach me:
+LinkedIn: linkedin.com/in/jorgernies/
+GitHub: github.com/jorge2026
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
