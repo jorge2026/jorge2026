@@ -6,6 +6,7 @@ I'm passionate about cloud architecture, process optimization, and disruptive st
 Cloud solutions and managed services at Manantial Tecnológico
 Developing cloud training programs for IT professionals
 Researching microservices architecture and enterprise strategy
+
 🌱 Currently learning:
 Advanced cloud architecture and multi-cloud strategies
 AI applications in supply chain and inventory management
