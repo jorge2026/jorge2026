@@ -3,10 +3,10 @@
 ## Habilidades técnicas (selección)
 <p align="center">
   <a href="https://skillicons.dev" target="_blank">
-    <img src="https://skillicons.dev/icons?i=git,githubactions,gitlab,jenkins,aws,gcp,azure,kubernetes,docker,ansible,terraform,kafka,prometheus,nginx,linux" alt="Tech icons" />
+    <img src="https://skillicons.dev/icons?i=git,githubactions,gitlab,jenkins,oracle,aws,gcp,azure,kubernetes,docker,ansible,terraform,kafka,prometheus,nginx,linux" alt="Tech icons" />
   </a>
   <a href="https://go-skill-icons.vercel.app/" target="_blank">
-    <img src="https://go-skill-icons.vercel.app/api/icons?i=windows,bash,vim,vscode,go,py,oracle,opentelemetry,rancher,grafana,argocd,airflow,helm" alt="More tech icons" />
+    <img src="https://go-skill-icons.vercel.app/api/icons?i=windows,bash,vim,vscode,go,py,opentelemetry,rancher,grafana,argocd,airflow,helm" alt="More tech icons" />
   </a>
 </p>
 
