@@ -1,0 +1,6 @@
+# Dependencias para Scripts de Administración de OCI
+# Oracle Cloud Infrastructure SDK para Python
+oci>=2.100.0
+
+# Opcional: Para mejorar la salida en terminal
+colorama>=0.4.6
