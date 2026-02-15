@@ -198,6 +198,10 @@ def obtener_metricas_disco(monitoring_client: oci.monitoring.MonitoringClient,
         return None
 
 
+# Estadísticas vacías por defecto cuando no hay datos
+EMPTY_STATS = {"min": 0, "max": 0, "avg": 0, "count": 0}
+
+
 def calcular_estadisticas(metricas_data: List) -> Dict:
     """
     Calcula estadísticas básicas de los puntos de datos de métricas.
@@ -209,7 +213,7 @@ def calcular_estadisticas(metricas_data: List) -> Dict:
         Dict con estadísticas calculadas
     """
     if not metricas_data or len(metricas_data) == 0:
-        return {"min": 0, "max": 0, "avg": 0, "count": 0}
+        return EMPTY_STATS.copy()
     
     valores = []
     for metric in metricas_data:
@@ -219,7 +223,7 @@ def calcular_estadisticas(metricas_data: List) -> Dict:
                     valores.append(point.value)
     
     if not valores:
-        return {"min": 0, "max": 0, "avg": 0, "count": 0}
+        return EMPTY_STATS.copy()
     
     return {
         "min": min(valores),
@@ -310,8 +314,8 @@ def monitorear_instancia(instance_id: str, compartment_id: str,
         )
         
         # Calcular estadísticas
-        cpu_stats = calcular_estadisticas(cpu_data) if cpu_data else {"min": 0, "max": 0, "avg": 0, "count": 0}
-        mem_stats = calcular_estadisticas(mem_data) if mem_data else {"min": 0, "max": 0, "avg": 0, "count": 0}
+        cpu_stats = calcular_estadisticas(cpu_data) if cpu_data else EMPTY_STATS.copy()
+        mem_stats = calcular_estadisticas(mem_data) if mem_data else EMPTY_STATS.copy()
         
         disk_stats = {}
         if disk_data:

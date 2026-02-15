@@ -175,7 +175,9 @@ def reiniciar_instancia(instance_id: str, config_profile: str = "DEFAULT") -> bo
         print("   ✓ Solicitud de reinicio enviada.")
         print("   ⏳ Esperando que la instancia se reinicie...")
         
-        time.sleep(5)  # Esperar un momento antes de verificar
+        # Esperar 5 segundos para que el comando de reinicio sea procesado
+        # antes de empezar a verificar el estado de la instancia
+        time.sleep(5)
         
         # Esperar hasta que la instancia vuelva a estar en ejecución
         oci.wait_until(

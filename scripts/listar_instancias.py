@@ -45,17 +45,34 @@ def listar_instancias(compartment_id: str,
     try:
         print(f"\n🔍 Buscando instancias en compartment: {compartment_id}")
         
-        # Listar instancias
+        # Listar instancias con paginación
         if estado:
             print(f"   Filtrando por estado: {estado}")
-            instances = compute_client.list_instances(
+            response = compute_client.list_instances(
                 compartment_id=compartment_id,
                 lifecycle_state=estado
-            ).data
+            )
         else:
-            instances = compute_client.list_instances(
+            response = compute_client.list_instances(
                 compartment_id=compartment_id
-            ).data
+            )
+        
+        instances = list(response.data)
+        
+        # Manejar paginación para obtener todas las instancias
+        while response.has_next_page:
+            if estado:
+                response = compute_client.list_instances(
+                    compartment_id=compartment_id,
+                    lifecycle_state=estado,
+                    page=response.headers['opc-next-page']
+                )
+            else:
+                response = compute_client.list_instances(
+                    compartment_id=compartment_id,
+                    page=response.headers['opc-next-page']
+                )
+            instances.extend(response.data)
         
         instancias_formateadas = [formatear_instancia(inst) for inst in instances]
         

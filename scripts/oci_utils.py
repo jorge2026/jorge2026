@@ -97,11 +97,22 @@ def listar_compartments(identity_client: oci.identity.IdentityClient,
     """
     try:
         compartments = []
+        # Implementar paginación para obtener todos los compartments
         response = identity_client.list_compartments(
             compartment_id=tenancy_id,
             compartment_id_in_subtree=True
         )
         compartments.extend(response.data)
+        
+        # Manejar paginación si hay más compartments
+        while response.has_next_page:
+            response = identity_client.list_compartments(
+                compartment_id=tenancy_id,
+                compartment_id_in_subtree=True,
+                page=response.headers['opc-next-page']
+            )
+            compartments.extend(response.data)
+        
         return compartments
     except Exception as e:
         print(f"Error al listar compartments: {e}")
