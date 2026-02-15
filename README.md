@@ -14,6 +14,8 @@
 
 Repositorio con **scripts simples** para la administración de instancias en **Oracle Cloud Infrastructure (OCI)**. Scripts en Python que permiten listar, actualizar y monitorear instancias de compute de manera eficiente.
 
+> 🚀 **[Ver Guía de Inicio Rápido](QUICKSTART.md)** para comenzar en minutos
+
 ## 📋 Descripción
 
 Este repositorio proporciona herramientas de línea de comandos para facilitar la administración diaria de recursos de OCI, específicamente instancias de compute. Los scripts están diseñados para ser simples, directos y fáciles de usar.
