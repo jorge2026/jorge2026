@@ -1,55 +1,70 @@
-<div align="center"> <img height="140" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeW40Z2FnMjFjcThubG9jcWJ3bXFrdGFsZWxwNTU3NW4xengzNXY1MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/kXixecGzl2gBlpO4SQ/giphy.gif" alt="Welcome"/> </div> <div align="center"> <a href="https://www.linkedin.com/in/jorge-rodriguez-n/overlay/about-this-profile/" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge" height="25" alt="LinkedIn"/> </a> <a href="https://www.youtube.com/@jorgeluisrn" target="_blank"> <img src="https://img.shields.io/badge/Youtube-FF0000?logo=youtube&logoColor=white&style=for-the-badge" height="25" alt="YouTube"/> </a> <a href="https://twitter.com/jorgeluisrn" target="_blank"> <img src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white&style=for-the-badge" height="25" alt="Twitter"/> </a> </div> <div align="center"> <img src="https://visitor-badge.laobi.icu/badge?page_id=jorge-rodriguez-n.github" alt="Visitor Badge"/> </div> <h1 align="center">Hey there 👋, I'm Jorge Rodriguez</h1> <h3 align="center"> Enterprise Systems Engineer | AWS x3 - OCI x5 ☁️ | FinOps x2 - GreenOps x1 ♻️💰 | CyberSec 🔒 | Enterprise Arch 🏗️ | K8s & Cloud Native 🌐 | Microservices & Serverless ⚙️ | AI (Gen & MLOps) 🤖 | SRE 📊 | Disruptive Strategist 🚀<br> Manantial Tecnológico · Universidad Científica del Sur </h3>
+# Jorge Rodriguez
 
-## Habilidades técnicas (selección)
-<p align="center">
-  <a href="https://skillicons.dev" target="_blank">
-    <img src="https://skillicons.dev/icons?i=git,githubactions,gitlab,jenkins,aws,gcp,azure,kubernetes,docker,ansible,terraform,kafka,prometheus,nginx,linux" alt="Tech icons" />
-  </a>
-  <a href="https://go-skill-icons.vercel.app/" target="_blank">
-    <img src="https://go-skill-icons.vercel.app/api/icons?i=oracle,windows,bash,vim,vscode,go,py,opentelemetry,rancher,grafana,argocd,airflow,helm" alt="More tech icons" />
-  </a>
+### Enterprise Systems Engineer | Cloud & Solutions Architecture | Multicloud | AI
+
+I build and explore cloud-native and enterprise technology solutions across **AWS, Microsoft Azure, Google Cloud, and Oracle Cloud Infrastructure (OCI)**. My interests include enterprise architecture, solution design, platform engineering, generative AI, automation, and FinOps.
+
+I am focused on growing toward **Lead Architect** responsibilities by strengthening architecture practices, documenting technical decisions, and building practical, reusable solutions.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jorge-rodriguez-n/)
+[![GitHub](https://img.shields.io/badge/GitHub-Projects-181717?style=flat&logo=github&logoColor=white)](https://github.com/jorge2026)
+[![YouTube](https://img.shields.io/badge/YouTube-Channel-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/@jorgeluisrn)
+
+---
+
+## What I work on
+
+- **Cloud & Multicloud:** AWS, Azure, Google Cloud, OCI, hybrid environments
+- **Architecture:** solution architecture, enterprise architecture concepts, integration, resilience, security, and technology roadmaps
+- **Cloud Native:** Kubernetes, containers, microservices, serverless, APIs
+- **Infrastructure Automation:** Terraform, Python, CI/CD, Infrastructure as Code
+- **AI Engineering:** generative AI, agentic workflows, LLM application patterns, and AI integration
+- **Cloud Economics:** FinOps, cost visibility, and optimization
+
+## Selected projects
+
+A selection of public repositories that demonstrate practical work and technical exploration.
+
+| Project | Focus | Technologies |
+|---|---|---|
+| [OCI Serverless AI Agent](https://github.com/jorge2026/agente-ia-oci) | Serverless API integrating OCI Functions, API Gateway, and OCI Generative AI | Python, OCI, Terraform |
+| [Oracle Fusion Agentic Apps](https://github.com/jorge2026/oracle-fusion-agentic-apps) | Starter architecture for orchestrating enterprise agent workflows; includes mock integration components | Python, FastAPI, Docker |
+| [OCI Administration Scripts](https://github.com/jorge2026/Scripts-de-Administracion-OCI) | Python utilities for OCI compute administration and monitoring | Python, OCI SDK |
+| [AWS Game Day Notifications](https://github.com/jorge2026/AWS---Game-Day-Notification-Solution) | Event-driven notification solution using sports data and messaging services | AWS Lambda, SNS, EventBridge, Python |
+| [OCI + SEA Community Hub](https://github.com/jorge2026/OCI-SEA-Community-Hub-docs-examples-templates) | Community documentation, reusable templates, and OCI examples | OCI, Terraform, documentation |
+
+> Some repositories are learning projects, prototypes, or reference implementations. Their READMEs describe the implemented scope and any integration prerequisites.
+
+## Architecture interests
+
+- Enterprise Architecture and business–technology alignment
+- Cloud adoption, hybrid and multicloud architecture
+- Application modernization and integration
+- AI-enabled enterprise platforms and responsible AI
+- Security, reliability, observability, and resilience
+- FinOps and technology value management
+
+## Technology toolkit
+
+<p>
+  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,kubernetes,docker,terraform,python,linux,git,githubactions" alt="AWS, Azure, Google Cloud, Kubernetes, Docker, Terraform, Python, Linux, Git and GitHub Actions" />
 </p>
 
-## Marcos de Gobierno y Arquitectura (destacados)
+## How I approach architecture
 
-<p align="center">
-  <!-- Gobierno de servicios TI -->
-  <a href="https://www.axelos.com/best-practice-solutions/itil" target="_blank">
-    <img src="https://img.shields.io/badge/ITIL-4-0052CC?style=for-the-badge&logo=itil" alt="ITIL"/>
-  </a>
-  <a href="https://www.isaca.org/resources/cobit" target="_blank">
-    <img src="https://img.shields.io/badge/COBIT-2019-0A2740?style=for-the-badge" alt="COBIT"/>
-  </a>
-  <a href="https://www.opengroup.org/it4it" target="_blank">
-    <img src="https://img.shields.io/badge/IT4IT-OTG-007ACC?style=for-the-badge" alt="IT4IT"/>
-  </a>
-  <a href="https://www.tmforum.org/" target="_blank">
-    <img src="https://img.shields.io/badge/Service-Governance-6f42c1?style=for-the-badge" alt="Service Governance"/>
-  </a>
-</p>
+1. Understand business outcomes and constraints.
+2. Define requirements, quality attributes, and risks.
+3. Compare options and document architecture decisions.
+4. Design for security, reliability, scalability, and cost.
+5. Validate through working prototypes, automation, and measurable outcomes.
 
-<p align="center">
-  <!-- Arquitectura Empresarial -->
-  <a href="https://pubs.opengroup.org/architecture/togaf9-doc/arch/" target="_blank">
-    <img src="https://img.shields.io/badge/TOGAF-9.2-3E7CB1?style=for-the-badge" alt="TOGAF"/>
-  </a>
-  <a href="https://www.zachman.com/" target="_blank">
-    <img src="https://img.shields.io/badge/Zachman-Framework-2E8B57?style=for-the-badge" alt="Zachman"/>
-  </a>
-</p>
+## Let's connect
 
-<p align="center">
-  <!-- Marcos de referencia por dominios de AE -->
-  <a href="https://bian.org/" target="_blank">
-    <img src="https://img.shields.io/badge/BIAN-Banking-0066CC?style=for-the-badge" alt="BIAN"/>
-  </a>
-  <a href="https://learn.microsoft.com/azure/architecture/cloud-adoption/" target="_blank">
-    <img src="https://img.shields.io/badge/CAF-Cloud%20Adoption-0089D6?style=for-the-badge" alt="CAF"/>
-  </a>
-  <a href="https://www.dama.org/" target="_blank">
-    <img src="https://img.shields.io/badge/DAMA-DMBOK-943b97?style=for-the-badge" alt="DAMA"/>
-  </a>
-  <a href="https://businessarchitectureguild.org/bizbok/" target="_blank">
-    <img src="https://img.shields.io/badge/BIZBOK-Business%20Architecture-EA2B1D?style=for-the-badge" alt="BIZBOK"/>
-  </a>
-</p>
+I welcome conversations about **Enterprise Architecture, Cloud Strategy, Multicloud, AI Architecture, and technology leadership**.
+
+- LinkedIn: [linkedin.com/in/jorge-rodriguez-n](https://www.linkedin.com/in/jorge-rodriguez-n/)
+- GitHub: [github.com/jorge2026](https://github.com/jorge2026)
+
+---
+
+<sub>Maintained by Jorge Rodriguez · Lima, Peru</sub>
