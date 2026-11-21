@@ -12,6 +12,10 @@ I am focused on growing toward **Lead Architect** responsibilities by strengthen
 
 ---
 
+## Enterprise Architecture case study
+
+Explore my [Enterprise Architecture Blueprint](enterprise-architecture-blueprint/README.md), a fictional, vendor-neutral case study covering business, application, data, technology, governance, and transformation architecture.
+
 ## Career roadmap
 
 My balanced professional development plan for 2026–2029 is documented in the [Enterprise Architect Roadmap](ROADMAP-2026-2029.md). It covers Enterprise Architecture, multicloud, AI, FinOps, governance, leadership, professional English, and a planned master's degree starting in 2028.
