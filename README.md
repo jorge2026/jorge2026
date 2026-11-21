@@ -12,6 +12,10 @@ I am focused on growing toward **Lead Architect** responsibilities by strengthen
 
 ---
 
+## Career roadmap
+
+My balanced professional development plan for 2026–2029 is documented in the [Enterprise Architect Roadmap](ROADMAP-2026-2029.md). It covers Enterprise Architecture, multicloud, AI, FinOps, governance, leadership, professional English, and a planned master's degree starting in 2028.
+
 ## What I work on
 
 - **Cloud & Multicloud:** AWS, Azure, Google Cloud, OCI, hybrid environments
